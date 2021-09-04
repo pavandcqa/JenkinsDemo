@@ -15,7 +15,7 @@ public class DemoTest01 {
 	public void testcase_002() {
 		
 		System.out.println("This is testcase 002");
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 	
 	@Test

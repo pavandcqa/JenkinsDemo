@@ -15,7 +15,7 @@ public class DemoTest02 {
 	public void testcase_005() {
 		
 		System.out.println("This is testcase 005");
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 	
 	@Test(dependsOnMethods = "testcase_005")
